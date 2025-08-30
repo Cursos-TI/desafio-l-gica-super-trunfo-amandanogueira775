@@ -121,7 +121,7 @@ int main() {
    
    //Menu interativo da comparação 1 
    printf("\n*** Comparação de cartas ***\n");
-   printf("\nEscolha o atributo a ser comparado:\n");
+   printf("\nEscolha o primeiro atributo a ser comparado:\n");
    printf("1. População \n");
    printf("2. Área \n");
    printf("3. PIB \n");
@@ -192,7 +192,7 @@ int main() {
       atributo1carta2 = superpoder2;
       break;
     default:
-      printf("Opção de jogo inaválida\n");
+      printf("Opção de jogo inválida\n Reiniciar jogo...\n");
       break;  
    }
  
@@ -273,7 +273,7 @@ int main() {
       atributo2carta2 = superpoder2;
       break;
     default:
-      printf("Opção de jogo inaválida\n");
+      printf("Opção de jogo inválida\n Reiniciar jogo...\n");
       break;}
    
     //Resultado final.
